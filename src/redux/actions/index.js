@@ -3,7 +3,7 @@ export const GET_SCORE = 'GET_SCORE';
 function getScore(json) {
   return {
     type: GET_SCORE,
-    payload: json,
+    scores: json,
   };
 }
 
