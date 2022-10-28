@@ -1,0 +1,10 @@
+.container-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #1C3F87;
+}
+
+.container-header img {
+  width: 20vh;
+  padding: 2vh;
+}
