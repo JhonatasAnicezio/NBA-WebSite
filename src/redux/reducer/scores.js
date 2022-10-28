@@ -10,7 +10,7 @@ const INITIAL_STATE = {
 const scores = ( state =  INITIAL_STATE, action ) => {
   switch(action.type) {
   case GET_SCORE:
-    return { state: action.payload };
+    return { state: action.scores };
   default:
     return state;
   }
