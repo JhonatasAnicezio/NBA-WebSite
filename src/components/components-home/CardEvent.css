@@ -1,0 +1,33 @@
+.container-cardEvent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  width: 20vh;
+
+  border-right: solid 1px #FFFFFF;
+  background-color: #C20F2D;
+}
+
+.container-cardEvent h2 {
+  padding: 1vh;
+
+  color: #FFFFFF;
+}
+
+.container-team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 20vh;
+
+  color: #FFFFFF;
+}
+
+.container-team img {
+  width: 5vh;
+  height: 5vh;
+}

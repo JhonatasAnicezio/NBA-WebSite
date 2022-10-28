@@ -1,0 +1,20 @@
+.container-events {
+  display: flex;
+  background-color: #C20F2D;
+
+  overflow: auto;
+  
+  border: 1px solid #FFFFFF;
+}
+
+::-webkit-scrollbar{
+  background-color: #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  height: 1vh;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 2vh;
+  padding: 1vh;
+  background-color: rgb(75, 70, 70);
+}
