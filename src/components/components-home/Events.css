@@ -4,12 +4,12 @@
 
   overflow: auto;
   
-  border: 1px solid #FFFFFF;
+  border: 0.2vh solid #FFFFFF;
 }
 
 ::-webkit-scrollbar{
   background-color: #FFFFFF;
-  border-top: 1px solid #FFFFFF;
+  border-top: 0.2vh solid #FFFFFF;
   height: 1vh;
 }
 
