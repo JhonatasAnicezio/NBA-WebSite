@@ -5,8 +5,9 @@
   align-items: center;
   
   width: 21vh;
+  font-size: 2vh;
 
-  border-right: solid 1px #FFFFFF;
+  border-right: solid 0.2vh #FFFFFF;
   background-color: #C20F2D;
 }
 
