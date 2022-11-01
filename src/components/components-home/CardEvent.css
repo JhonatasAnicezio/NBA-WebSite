@@ -4,17 +4,18 @@
   justify-content: center;
   align-items: center;
   
-  width: 21vh;
-  font-size: 2vh;
+  width: 15vh;
+  padding: 0.5vh;
+  font-size: 1.5vh;
 
   border-right: solid 0.2vh #FFFFFF;
   background-color: #C20F2D;
 }
 
 .container-cardEvent h2 {
-  padding: 1vh;
-
   color: #FFFFFF;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
 }
 
 .container-team {
@@ -29,6 +30,6 @@
 }
 
 .container-team img {
-  width: 5vh;
-  height: 5vh;
+  width: 3vh;
+  height: 3vh;
 }
