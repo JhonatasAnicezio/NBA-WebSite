@@ -1,0 +1,19 @@
+.container-cardNew {
+  display: flex;
+  flex-direction: column;
+
+  width: 44vh;
+  padding: 1.5vh;
+  font-size: 3vh;
+}
+
+.container-cardNew img {
+  width: 44vh;
+  height: 25vh;
+  padding-bottom: 1.5vh;
+}
+
+.container-cardNew a {
+  text-decoration: none;
+  color: #000000;
+}
