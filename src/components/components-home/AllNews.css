@@ -1,0 +1,30 @@
+.container-allNews {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+
+  width: 70%;
+
+  background-color: #E7E7E7;
+}
+
+.container-allNews h2 {
+
+  font-family: 'Inter';
+  font-style: normal;
+
+  padding-bottom: 2vh;
+  margin: 4vh;
+  margin-bottom: 0vh;
+  font-size: 3vh;
+  width: 93%;
+
+  border-bottom: 0.2vh solid black;
+}
+
+.container-news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
