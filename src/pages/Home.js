@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import AllNews from '../components/components-home/AllNews';
 import BannerNew from '../components/components-home/BannerNew';
 import Events from '../components/components-home/Events';
 import Header from '../components/Header';
@@ -18,6 +19,7 @@ function Home() {
       <Header />
       <Events />
       <BannerNew />
+      <AllNews />
     </div>
   );
 }
