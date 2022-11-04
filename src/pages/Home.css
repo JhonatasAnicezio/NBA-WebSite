@@ -2,3 +2,8 @@
   display: flex;
   flex-direction: column;
 }
+
+.container-mid {
+  display: flex;
+  flex-direction: row;
+}
