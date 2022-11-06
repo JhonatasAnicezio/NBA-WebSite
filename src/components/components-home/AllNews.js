@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import './AllNews.css';
 import CardNew from './CardNew';
 
 function AllNews({ articles }) {
+  const [ stateArticles, setStateArticles ] = useState([]);
+
+  useEffect(() => {
+    articles.splice(0,1);
+    setStateArticles(articles);
+  });
+
   return (
     <div className='container-allNews'>
       <h2>NEWS</h2>
       <div className='container-news'>
-        { articles.map((article, index) => 
+        { stateArticles.map((article, index) => 
           <CardNew
             key={ index }
             url={ article.images[0].url }
