@@ -15,7 +15,7 @@ const news = ( state =  INITIAL_STATE, action ) => {
       ...state,
       articlesNBA: action.news,
       firstNew: {
-        article: article[0],
+        href: article[0].links.web.href,
         image: article[0].images[0].url,
       },
     };
