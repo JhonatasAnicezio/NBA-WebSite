@@ -13,7 +13,9 @@ function BannerNew({ firstNew }) {
 
   return (
     <div className='container-bannerNew'>
-      <img src={ firstNew.image } alt='image' />
+      <a href={ firstNew.href } target='blank'>
+        <img src={ firstNew.image } alt='image' />
+      </a>
     </div>
   );
 }
