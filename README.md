@@ -2,7 +2,7 @@
 <p> Meu projeto consiste em um blog de notícias dedicado exclusivamente à NBA, uma das maiores ligas de basquete do mundo. O objetivo é manter os fãs da NBA sempre atualizados com as últimas notícias, resultados e informações sobre os próximos jogos da semana.</p> 
 <p>Para garantir a precisão e a confiabilidade das informações que o blog compartilha, a plataforma consome a API da ESPN, uma das principais fontes de informação sobre esportes. Com isso, temos acesso em tempo real aos resultados dos jogos já finalizados e podemos fornecer aos nossos leitores previsões precisas de quais serão os próximos jogos.</p> 
 <p>Além disso, o nosso blog possui um espaço em branco ao lado para anúncios. Isso permite que empresas tenham a oportunidade de atingir uma audiência altamente engajada e interessada em esportes, promovendo seus produtos e serviços para um público altamente qualificado.</p>
-<img src='./public/project.png' />
+<img src='./src/img/readme.png' />
 <br><br>
 <h1>Tecnologias utilizadas:</h1>
 <ul>
